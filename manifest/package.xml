@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>ExpectedResolutionDateJob</members>
+		<members>SupportRequestManualUpdateController</members>
+		<members>SupportRequestManualUpdateControllerTest</members>
+		<members>SupportRequestTriggerHandler</members>
+		<members>SupportRequestTriggerHandlerTest</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ApexTrigger</name>
+	</types>
+	<types>
+		<members>SupportRequest__c.ExpectedResolutionDate__c</members>
+		<members>SupportRequest__c.Priority__c</members>
+		<members>SupportRequest__c.Status__c</members>
+		<name>CustomField</name>
+	</types>
+	<types>
+		<members>SupportRequest__c</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>SupportRequest__c-Solicitud de soporte técnico Layout</members>
+		<name>Layout</name>
+	</types>
+	<types>
+		<members>SupportRequest__c.Actualizar_la_fecha</members>
+		<name>QuickAction</name>
+	</types>
+	<version>64.0</version>
+</Package>
