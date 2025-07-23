@@ -30,5 +30,9 @@
 		<members>SupportRequest__c.Actualizar_la_fecha</members>
 		<name>QuickAction</name>
 	</types>
+	<types>
+		<members>*</members>
+		<name>LightningComponentBundle</name>
+	</types>
 	<version>64.0</version>
 </Package>
